@@ -63,8 +63,8 @@ zstyle ':vcs_info:*:*' stagedstr '+'
 #              sions.
 
 
-zstyle ':vcs_info:*:*' actionformats "%u%c(%s) %r [%b] %a"
-zstyle ':vcs_info:*:*' formats "%u%c(%s) %r [%b]"
+zstyle ':vcs_info:*:*' actionformats "%u%c(%s) %r %S [%b] %a"
+zstyle ':vcs_info:*:*' formats "%u%c(%s) %r %S [%b]"
 zstyle ':vcs_info:*:*' nvcsformats "%~" ""
 zstyle ':vcs_info:hg*:netbeans' use-simple true
 
